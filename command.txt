@@ -1,3 +1,9 @@
 sed -i ':a;N;$!ba;s+\n\n+</li>+g' Saiman*+*txt
 sed -i ':a;N;$!ba;s+\n+<br />+g' Saiman*+*txt
-sed -i ':a;N;$!ba;s/Title:/>\n<li>Title:/g' Saiman*+*txt
+sed -i ':a;N;$!ba;s+Title:+\n<li>Title:+g' Saiman*+*txt
+
+
+import os
+for a in os.listdir('./'):
+    a1 = a.replace('.txt', '.html')
+    os.system("mv " + a + ' ' + a1)
