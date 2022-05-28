@@ -1,7 +1,10 @@
 sed -i ':a;N;$!ba;s+\n\n+</li>+g' Saiman*+*txt
 sed -i ':a;N;$!ba;s+\n+<br />+g' Saiman*+*txt
 sed -i ':a;N;$!ba;s+Title:+\n<li>Title:+g' Saiman*+*txt
-
+find ./ -name *_image* -exec sed -i -e 's/loading=lazy width=300/loading='lazy'/g' {} \;
+perl -i -p -e 's/\n//' file
+find ./ -name *_image* -exec perl -i -p -e 's/\n//' {} \;
+find ./ -name "*Removed*Combine.html" -exec sed -i 's+https://i+<img src=https://i+g' {} \;
 
 import os
 for a in os.listdir('./'):
