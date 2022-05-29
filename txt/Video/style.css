@@ -1,0 +1,17 @@
+a:link,
+a:visited {
+  background-color: black;
+  color: whitesmoke;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  face = "Comic sans MS"
+}
+body {
+  background-color: black;
+}
+a:hover,
+a:active {
+  background-color: rgb(54, 76, 105);
+}
