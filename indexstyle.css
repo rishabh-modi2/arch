@@ -1,2 +1,7 @@
-a{   padding: 15px;  line-height: 2.5;   color: white;  font-family: sans-serif;  font-size:3vh;}
+a{   padding: 15px;     color: white;  font-family: sans-serif;  font-size:3vh;
+    padding: 11px;
+    border: 2px solid gray;
+    margin: 0;
+     line-height: 3;
+  }
 body { background-color: #303030;}   
