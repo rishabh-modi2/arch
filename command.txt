@@ -7,6 +7,7 @@ find ./ -name *_image* -exec perl -i -p -e 's/\n//' {} \;
 find ./ -name "*Removed*Combine.html" -exec sed -i 's+https://i+<img src=https://i+g' {} \;
 
 
+
 gitpod /workspace/arch/txt (master) $ sed -i ':a;N;$!ba;s+\n\n+</li>+g' vid+perma.html
 sed: can't read vid+perma.html: No such file or directory
 gitpod /workspace/arch/txt (master) $ sed -i ':a;N;$!ba;s+\n\n+</li>+g' *vid+perma.html

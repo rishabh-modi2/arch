@@ -1,0 +1,42 @@
+.
+├── bakchodi
+├── Chodi
+│   ├── Images
+│   │   └── txt
+│   ├── Text
+│   └── Video
+│       └── txt
+├── collect
+├── css
+├── dankinindia
+├── fonts
+├── images
+├── img
+│   ├── blog
+│   ├── clients
+│   ├── demos
+│   └── portfolio
+├── IndianDankMemes
+├── js
+├── reddit-collection
+│   ├── python
+│   ├── python3
+│   ├── reddit-collection
+│   │   ├── bakchodi
+│   │   ├── Chodi
+│   │   ├── dankinindia
+│   │   ├── IndianDankmemes
+│   │   ├── IndiaSpeaks
+│   │   └── SaimanSays
+│   └── txt
+├── SaimanSays
+└── txt
+    ├── image
+    │   └── raw
+    ├── saiman
+    ├── Video
+    │   └── raw
+    └── VideoIframe
+        └── raw
+
+39 directories
