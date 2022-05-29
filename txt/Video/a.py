@@ -1,8 +1,8 @@
 import os
-file = '../../'
+file = './'
 os.system('rm ' + file + 'index2.html')
 with open(file + 'index2.html', 'a+') as f:
-    f.write("        <style>\n            li {\n  color: white;\n  font-family: sans-serif;\n  font-size:3vh;\n}\n        </style>\n<p><span style='font-size: 14pt; color: black;'><strong>Made By u/Rishabhmoodi</strong></span></p>")        
+    f.write("        <head>\n         <link rel='stylesheet' href='https://collection.rishabh.ml/videostyle.css'>\n<p><span'><strong>Made By u/Rishabhmoodi</strong></span></p>")        
 for o in os.listdir(file):
     print(o)
     with open(file + 'index2.html', 'a+') as f:
