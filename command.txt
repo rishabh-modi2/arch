@@ -6,6 +6,16 @@ perl -i -p -e 's/\n//' file
 find ./ -name *_image* -exec perl -i -p -e 's/\n//' {} \;
 find ./ -name "*Removed*Combine.html" -exec sed -i 's+https://i+<img src=https://i+g' {} \;
 
+
+gitpod /workspace/arch/txt (master) $ sed -i ':a;N;$!ba;s+\n\n+</li>+g' vid+perma.html
+sed: can't read vid+perma.html: No such file or directory
+gitpod /workspace/arch/txt (master) $ sed -i ':a;N;$!ba;s+\n\n+</li>+g' *vid+perma.html
+gitpod /workspace/arch/txt (mastsed -i ':a;N;$!ba;s+\n+<br />+g' *vid+perma.html
+gitpod /workspace/arch/txt (master) $ sedsed -i ':a;N;$!ba;s+Title:+\n<li>Title:+g' *vid+perma.html
+gitpod /workspace/arch/txt (master) $ perl -i -p -e 's/Title/^C file
+gitpod /workspace/arch/txt (master) $ perl -i -p -e 's/Title:/\n<li>Title:/' *vid+perma.html
+gitpod /workspace/arch/txt (master) $ sed -i 's+</li><li>+</li>\n<li>+g' *vid+perma.html
+gitpod /workspace/arch/txt (master) $ sed -i 's+</li>Title:+</li>\n<li>Title:+g' *vid+perma.html
 import os
 for a in os.listdir('./'):
     a1 = a.replace('.txt', '.html')

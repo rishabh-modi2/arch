@@ -18,8 +18,9 @@ for a1 in open('listvideo.txt').read().splitlines():
             if i != 100:
                 f2 = open(a1.replace('.html', '') + '_page_' + str(i2) + '.html', 'a+')
                 f2.write("</ol>")
-        f4 = open(a1.replace('.html', '') + '_page_' + str(i2) + '.html', 'a+')
-        f4.write("      " + a + '\n')
+        if i > 99:
+            f4 = open(a1.replace('.html', '') + '_page_' + str(i2) + '.html', 'a+')
+            f4.write("      " + a + '\n')
         
 # for a1 in open('index-page.txt').read().splitlines():
 #     f4 = open('index2.html', 'a+')
