@@ -1,11 +1,11 @@
 import os
-file = input('location ')
+file = input('input')
 os.system('rm ' + file + 'index.html')
-with open(file + 'index.html', 'a+') as f:
+with open('/workspace/arch/ind/' + 'index.html', 'a+') as f:
     f.write("<head>\n         <link rel='stylesheet' href='https://collection.rishabh.ml/indexstyle.css'>\n</head>\n<p><span'><strong>Made By u/Rishabhmoodi</strong></span></p>")        
-for o in os.listdir(file):
+for o in os.listdir('/workspace/arch'):
     print(o)
     o2 = o.replace('.html', '.txt')
-    with open(file + 'index.html', 'a+') as f:
+    with open('/workspace/arch/ind/' + 'index.html', 'a+') as f:
         f.write("<a href=/" + o +">" + o2 + "</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n")        
     
