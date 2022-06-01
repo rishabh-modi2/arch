@@ -19,6 +19,6 @@ for a in open('indiaspeaks.html').read().splitlines():
             f5.write('index_' + '_page_' + str(i2) + '.html\n')
         with open('indiaspeaks' + '_page_' + str(i2 - 1) + '.html', 'a+') as f2:
             f2.write("</ol>")
-    if i > 105:
-        with open('indiaspeaks' + '_page_' + str(i2) + '.html', 'a+') as f4:
-            f4.write("      " + '\n')
+    # if i > 105:
+    with open('indiaspeaks' + '_page_' + str(i2) + '.html', 'a+') as f4:
+        f4.write("      " + a + '\n')
