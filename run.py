@@ -6,11 +6,7 @@ do2 = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400
 i = 99.9
 i2 = 0
 for a in open('indiaspeaks.html').read().splitlines():
-    i += 0.1
-    if i == 100:
-        i2 += 1
-        with open('indiaspeaks' + '_page_' + str(i2) + '.html', 'a+') as f1:
-            f1.write("<!DOCTYPE html><html>        <head>\n         <link rel='stylesheet' href='https://collection.rishabh.ml/txtstyle.css'>\n		<title>memes archive</title>\n	</head>	</body style='background-color:#33475b'>	<p><span style='font-size: 14pt; color: #ecf0f1;'><strong>Made For https://bakchodi.org</strong></span></p><ol>")
+    i += 0.5
     if i in do:
         i2 += 1
         with open('indiaspeaks' + '_page_' + str(i2) + '.html', 'a+') as fa:
