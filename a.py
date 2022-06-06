@@ -1,6 +1,6 @@
 import os
 #file = input('input')
-file = './Chodi/Video'
+file = './Chodi/Text'
 os.system('rm ' + file + '/index.html')
 with open(file + '/' + 'index.html', 'a+') as f:
     f.write("<head>\n         <link rel='stylesheet' href='https://collection.rishabh.ml/indexstyle.css'>\n</head>\n<p><span'><strong>Made By u/Rishabhmoodi</strong></span></p>")        
