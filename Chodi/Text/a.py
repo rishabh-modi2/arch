@@ -6,12 +6,5 @@ for a in f.read().splitlines():
   if '[removed]' in a or '[deleted]' in a:
     print('deleted')
   else:
-    i += 1
-    if i in do:
-      i2 += 1
-      w1 = open(str(i2) + '_Choditext.html', 'a+')
-      w1.write("<!DOCTYPE html><html>        <head>\n        <link rel='stylesheet' href='https://collection.rishabh.ml/videostyle.css'>\n               <title>memes archive</title>\n       </head>	</body style='background-color:#33475b'>	<p><span style='font-size: 14pt; color: #ecf0f1;'><strong>Made For https://bakchodi.org</strong></span></p><ol>")
-      w12 = open(str(i2-1) + '_Choditext.html', 'a+')
-      w12.write("</ol>\n<p> Made By bakchodi.org/u/Rishabhmoodi for bakchodi.org </p>\n	</body>\n</html>")
-    w1 = open(str(i2) + '_Choditext.html', 'a+')
-    w1.write(a)
+    w1 = open('all2.html', 'a+')
+    w1.write(a + '\n')
