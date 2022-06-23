@@ -10,11 +10,11 @@ for a1 in open('listvideo.txt').read().splitlines():
         if i == 100:
             i2 += 1
             with open(a1.replace('.html', '') + '_page_' + str(i2) + '.html', 'a+') as f1:
-                f1.write("<!DOCTYPE html><html>        <head>\n         <link rel='stylesheet' href='https://collection.rishabh.ml/txtstyle.css'>\n		<title>memes archive</title>\n	</head>	</body style='background-color:#33475b'>	<p><span style='font-size: 14pt; color: #ecf0f1;'><strong>Made For https://bakchodi.org</strong></span></p><ol>")
+                f1.write("<!DOCTYPE html><html>        <head>\n         <link rel='stylesheet' href='https://collection.rishabh.gq/txtstyle.css'>\n		<title>memes archive</title>\n	</head>	</body style='background-color:#33475b'>	<p><span style='font-size: 14pt; color: #ecf0f1;'><strong>Made For https://bakchodi.org</strong></span></p><ol>")
         if i in do:
             i2 += 1
             with open(a1.replace('.html', '') + '_page_' + str(i2) + '.html', 'a+') as fa:
-                fa.write("<!DOCTYPE html><html>        <head>         <link rel='stylesheet' href='https://collection.rishabh.ml/txtstyle.css'>\n		<title>memes archive</title>\n	</head>	</body style='background-color:#33475b'>	<p><span style='font-size: 14pt; color: #ecf0f1;'><strong>Made For https://bakchodi.org</strong></span></p><ol>")
+                fa.write("<!DOCTYPE html><html>        <head>         <link rel='stylesheet' href='https://collection.rishabh.gq/txtstyle.css'>\n		<title>memes archive</title>\n	</head>	</body style='background-color:#33475b'>	<p><span style='font-size: 14pt; color: #ecf0f1;'><strong>Made For https://bakchodi.org</strong></span></p><ol>")
             with open('index-page.txt', 'a+') as f5:
                 f5.write('index_' + a1.replace('.html', '') + '_page_' + str(i2) + '.html\n')
             with open(a1.replace('.html', '') + '_page_' + str(i2 - 1) + '.html', 'a+') as f2:

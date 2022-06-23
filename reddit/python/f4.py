@@ -101,9 +101,9 @@ for a in range(1, 160810):
               wr31.write(rfulllink + '\n')
               wr41 = open(sub + str(score_range) + '_vid+perma.txt', 'a+')
               # if jso['data'][i]['link_flair_text']:
-              #   wr1.write('Title: ' + rtitle + '\nurl: <a href=https://videoplayer2.rishabh.ml/rvideo/?url=' + rurl + '>Play</a>\nbaseextract: ' + rid + '\nFlair: ' + jso['data'][i]['link_flair_text'] + '\n\n')
+              #   wr1.write('Title: ' + rtitle + '\nurl: <a href=https://videoplayer2.rishabh.gq/rvideo/?url=' + rurl + '>Play</a>\nbaseextract: ' + rid + '\nFlair: ' + jso['data'][i]['link_flair_text'] + '\n\n')
               # else:
-              wr41.write('Title: ' + rtitle + '\nurl: <a href=https://videoplayer2.rishabh.ml/rvideo/?url=' + rurl + '>Play</a>\nbaseextract: ' + rid + '\nScore:' + score1 + '\n\n')
+              wr41.write('Title: ' + rtitle + '\nurl: <a href=https://videoplayer2.rishabh.gq/rvideo/?url=' + rurl + '>Play</a>\nbaseextract: ' + rid + '\nScore:' + score1 + '\n\n')
       except Exception as e:
         print(e)
         pass

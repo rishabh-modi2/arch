@@ -88,7 +88,7 @@ def FetchSubmission():
                   wr1.write(rfulllink + '\n')
                   wr1 = open(str(score_range) + sub + '_vid+perma.txt', 'a+')
                   if jso['data'][i]['link_flair_text']:
-                    wr1.write('Title: ' + rtitle + '\nurl: <a href=https://videoplayer2.rishabh.ml/rvideo/?url=' + rurl + '>Play</a>\nbaseextract: ' + rid + '\nFlair: ' + jso['data'][i]['link_flair_text'] + '\n\n')
+                    wr1.write('Title: ' + rtitle + '\nurl: <a href=https://videoplayer2.rishabh.gq/rvideo/?url=' + rurl + '>Play</a>\nbaseextract: ' + rid + '\nFlair: ' + jso['data'][i]['link_flair_text'] + '\n\n')
                   else:
                     wr1.write('Title: ' + rtitle + '\nurl: ' + rurl + '\nbaseextract: ' + rid + '\n\n')
           except Exception as e:
